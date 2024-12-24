@@ -21,6 +21,8 @@
             "Tests\\": "tests/"
         }
     },
+    "keywords": ["laravel", "framework"],
+    "license": "MIT",
     "authors": [
         {
             "name": "JOIN API",
