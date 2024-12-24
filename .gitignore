@@ -23,7 +23,7 @@ _ide_helper_models.php
 /.idea
 /.fleet
 /.vscode
-
+.idea
 # Misc
 phpunit.xml
 phpstan.neon
