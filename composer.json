@@ -2,6 +2,7 @@
     "name": "joinapi/laravel-utility",
     "require": {
         "php": "^8.1 || ^8.2",
+        "ext-simplexml": "*",
         "illuminate/contracts": "^10.0 || ^11.0",
         "archtechx/money": "^0.5.1",
         "laravel/framework": "^11.0"
@@ -12,13 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Joinapi\\Utility\\": "src/"
+            "Joinbiz\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Joinapi\\Utility\\": "src/",
-            "Tests\\": "tests/"
+            "Joinbiz\\": "tests/"
         }
     },
     "keywords": ["laravel", "framework"],
