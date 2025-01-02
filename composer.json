@@ -1,10 +1,11 @@
 {
     "name": "joinapi/laravel-utility",
     "require": {
-        "php": "^8.1 || ^8.2",
-        "ext-simplexml": "*",
+        "php": "^8.2",
         "archtechx/money": "^0.5.1",
-        "laravel/framework": "^11.0"
+        "laravel/framework": "^11.0",
+        "illuminate/support": "^9.34 || ^10 || ^11.0",
+        "illuminate/database": "^9.34 || ^10 || ^11.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
